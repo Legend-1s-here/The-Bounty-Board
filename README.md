@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663886659791/YQFkBbYlrusVFjcE.png" alt="The Bounty Board — anime-styled productivity app and Android home-screen widget" width="100%" /> <h1>🏴 THE BOUNTY BOARD</h1> <h3><em>Turn the things you need to do into quests worth claiming.</em></h3> <p><strong>An anime and Japanese-aesthetics task board with a live Android home-screen widget.</strong></p>
+<div align="center"> <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663886659791/LwnnblvUiaxYbQeX.png" alt="The Bounty Board — anime-styled productivity app and Android home-screen widget" width="100%" /> <h1>🏴 THE BOUNTY BOARD</h1> <h3><em>Turn the things you need to do into quests worth claiming.</em></h3> <p><strong>An anime and Japanese-aesthetics task board with a live Android home-screen widget.</strong></p>
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.24%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-3-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
@@ -52,7 +52,7 @@ The Android widget is not a static shortcut. It renders the current bounty list,
 
 ### Widget behavior
 
-- Displays up to **8 active tasks** with readable multi-line wrapping.
+- Displays up to **five active tasks** with readable multi-line wrapping.
 
 - Shows an additional `+ N more in app...` indicator when more tasks remain.
 
