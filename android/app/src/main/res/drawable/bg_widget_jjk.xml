@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jujutsu Kaisen: Cursed Energy infinite void navy & glowing cursed violet border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#1E0C38"
+        android:centerColor="#0E0A22"
+        android:endColor="#050410"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#9D4EDD" />
+    <corners android:radius="18dp" />
+</shape>

@@ -1,0 +1,91 @@
+# Antigravity indexes the whole project into "Agentic Context" by default —
+# every file here is skipped for that purpose, but stays fully visible to
+# git, CI, and every other tool. This is pure token cost reduction: an
+# unindexed node_modules or lockfile is thousands of tokens with zero signal.
+#
+# (Some Antigravity builds use a differently-named ignore file, or read this
+# via Settings → Agents → Context exclusions. If this file doesn't appear to
+# have any effect, check there first.)
+#
+# Keep this current as the project grows — a new generated-code folder or
+# fixtures directory belongs here the same day it's added.
+
+# Dependency trees
+node_modules/
+vendor/
+bower_components/
+.venv/
+venv/
+env/
+__pycache__/
+.tox/
+
+# Build output / compiled artifacts
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+*.min.js
+*.min.css
+*.map
+
+# Lockfiles — large, low-signal. The agent should reason from
+# package.json / pyproject.toml / go.mod, not the resolved lockfile.
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
+Cargo.lock
+composer.lock
+
+# Logs, caches, coverage, local databases
+*.log
+.cache/
+.turbo/
+coverage/
+.nyc_output/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sqlite
+*.sqlite3
+
+# Media / binary — the agent can't usefully "read" these as tokens
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.mp4
+*.mov
+*.pdf
+*.zip
+*.tar.gz
+*.woff
+*.woff2
+*.ttf
+
+# Secrets — never index, never let these become part of what an agent
+# echoes into a Task List, Implementation Plan, or Walkthrough artifact.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
+
+# Graphify output — GRAPH_REPORT.md (not listed here) is meant to be read;
+# these are for a human's browser or for re-run performance, not context.
+# If you use Graphify, keep .graphifyignore in sync with this file.
+graphify-out/*.html
+graphify-out/cache/
+graphify-out/graph.json
+
+# TODO: add project-specific heavy or generated directories, e.g.:
+#   - a generated OpenAPI/GraphQL client
+#   - a compiled protobuf/grpc output folder
+#   - a database seed/fixtures dump
+#   - a docs site build folder (docs/.vitepress/dist, etc.)

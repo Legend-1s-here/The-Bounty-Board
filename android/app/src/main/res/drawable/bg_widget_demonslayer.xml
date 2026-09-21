@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Demon Slayer: Kimetsu crimson nichirin flame gradient with blood red border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#330010"
+        android:centerColor="#1E000C"
+        android:endColor="#0D0006"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#DC143C" />
+    <corners android:radius="18dp" />
+</shape>

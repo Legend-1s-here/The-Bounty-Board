@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One Piece: Pirate King Grand Line ocean navy & glittering gold border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#002040"
+        android:centerColor="#001226"
+        android:endColor="#000814"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#FFD700" />
+    <corners android:radius="18dp" />
+</shape>

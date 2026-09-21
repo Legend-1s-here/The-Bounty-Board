@@ -1,0 +1,27 @@
+name: todo_app
+description: A simple To-do list app for Android and PC with home screen widget.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  provider: ^6.1.2
+  home_widget: ^0.10.0
+  uuid: ^4.3.3
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true

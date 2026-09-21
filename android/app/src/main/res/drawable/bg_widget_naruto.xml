@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Naruto: Ninja Scroll fiery chakra gradient with blazing orange border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#331400"
+        android:centerColor="#1E0C00"
+        android:endColor="#0D0500"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#FF6B00" />
+    <corners android:radius="18dp" />
+</shape>

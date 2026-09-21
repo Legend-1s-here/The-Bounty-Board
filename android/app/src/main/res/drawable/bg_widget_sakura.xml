@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sakura: Spring cherry blossom petal pink gradient & soft rose border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#FFF0F6"
+        android:centerColor="#FFE4EE"
+        android:endColor="#FFD6E4"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#E91E8C" />
+    <corners android:radius="18dp" />
+</shape>

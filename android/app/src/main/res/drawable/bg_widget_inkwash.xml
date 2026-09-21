@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ink Wash: Traditional Japanese washi parchment & charcoal sumi-e ink border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#F8F8F4"
+        android:centerColor="#EFEFE8"
+        android:endColor="#E2E2DC"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#37474F" />
+    <corners android:radius="18dp" />
+</shape>

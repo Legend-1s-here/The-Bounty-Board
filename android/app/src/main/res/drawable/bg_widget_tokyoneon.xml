@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tokyo Neon: Shinjuku cyberpunk midnight & electric cyan neon border -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#051A2E"
+        android:centerColor="#080C1E"
+        android:endColor="#03040C"
+        android:angle="135" />
+    <stroke android:width="2dp" android:color="#00E5FF" />
+    <corners android:radius="18dp" />
+</shape>
